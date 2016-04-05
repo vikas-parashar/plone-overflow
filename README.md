@@ -2,6 +2,9 @@
 # plone-overflow
 Slack bot to watch stack overflow for new questions with 'plone' tag and post them in channel.
 
+![watching 'javascript' tag and posting questions](http://i.imgur.com/Z06N8kA.png "watching 'javascript' tag and posting questions")
+
+
 ## Installation
 Clone the repo:
 
