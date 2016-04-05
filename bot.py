@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ACTIVITY_FILE = os.path.join(BASE_DIR, 'activity.json')
 PUSH_URL = os.environ["SLACK_PUSH_URL"]
 STACKEXCHANGE_API_KEY = os.environ["STACKEXCHANGE_API_KEY"]
-
+print ACTIVITY_FILE
 
 url = 'http://api.stackexchange.com/2.2/questions?pagesize=1&order=desc&sort=creation&tagged=javascript&site=stackoverflow&key=' + \
     STACKEXCHANGE_API_KEY
